@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="84.7dp"
+        android:background="#ff6666">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="26.5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16.7dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/dashboard_profile"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="29.7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16.7dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_jardine"
+        android:layout_below="@+id/layout_dashboard"
+        android:layout_width="179.3dp"
+        android:layout_height="52.7dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/jardine_schindler"/>
+
+    <LinearLayout
+        android:layout_width="323.7dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42.3dp"
+        android:layout_marginEnd="48dp"
+        android:layout_below="@+id/img_jardine"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginEnd="31dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Internal Maintenance \nThe intranet service will be suspended from 7/12/2018 18:00 to 8/12/2018 06:00" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active"/>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#D3D3D3"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="31dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Suspension of lift service \nThe life service will be suspended from 7/12/2018 09:00 to 15:00" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active"
+                app:tint="#D3D3D3" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#D3D3D3"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="31dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Early leave \nOffice staffs may leave at 13:00 on Winter Solstice Festival (22/12)" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#D3D3D3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#2e3192"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Recently Approved Records" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Annual Leave on 21st FEB 2019" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="23dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="#D3D3D3"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Annual Leave on 1st MAR 2019" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="#D3D3D3"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Expanse Claim on 11st JAN 2019" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/dot_active"
+                app:tint="#D3D3D3"/>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="#D3D3D3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ass"
+            android:layout_marginStart="60dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="28dp"
+            android:src="@drawable/b"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imgSetting"
+            android:layout_width="20dp"
+            android:layout_height="28dp"
+            android:src="@drawable/settings"
+            android:layout_marginEnd="60dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
